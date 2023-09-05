@@ -7,13 +7,13 @@ function computerChoice() {
 
     switch(n){
         case 0:
-            return "rock"
+            return "rock";
             break;
         case 1:
-            return "paper"
+            return "paper";
             break;
         case 2: 
-            return "scissors"
+            return "scissors";
     }
 }
 

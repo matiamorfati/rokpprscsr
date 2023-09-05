@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    margin: 10px 70px;
+    background-color: rgb(224, 208, 208);
+    font-family: Asap, sans-serif;
+
+opacity: 1;
+background-size: 20px 20px;
+background-image:  repeating-linear-gradient(0deg, #dcd5af, #afb2f0 1px, #e5e5f7 1px, #e5e5f7);
+}
+
+.boxone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxone > h1 {
+    font-size: 64px;
+}
+
+.boxone > div {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.boxtwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contentbox {
+    display: flex;
+    flex-shrink:inherit;
+}
+
+.contentboxenemy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentboxenemy > div {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#winner {
+    font-size: 38px;
+}
+
+button {
+    margin: 50px 80px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    box-shadow: 4px 7px grey;
+    font-weight: bold;
+}
+
+#rock {
+    box-shadow: -4px 7px grey;
+}
+
+#paper, #enemy{
+    box-shadow: 0 7px grey;
+}
+
+
+.boxtree {
+    display: flex;
+    margin: 15px 20%;
+    padding: 10% 25%;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.boxtree > div {
+    font-size: 42px;
+    color: red;
+}
+
+

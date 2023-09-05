@@ -3,13 +3,31 @@
 <head>
     <html lang="en">
     <meta charset="UTF-8">
-    <tittle>rpprs!</tittle>
-    <link rel="stylesheet" href="">
-    <script type="text/javascript"src="./game.js"></script>
+    <title>rpprs!</title>
+    <link rel="stylesheet" href="./style.css">
+  <!--  <script type="text/javascript"src="./game.js"></script> -->
 </head>
 
 <body>
-
+<div class="boxone">
+    <h1>Rock, paper, scissors !</h1>
+    <div> choose your weapon:</div>
+</div> <!--w przyciskach plan jest taki ze sie powiekszaja-->
+<div class="boxtwo"> <!--enemy robi shuffle-->
+    <div class="contentbox"> <!--w outcome wyniki-->
+        <button id="rock" >rock</button>
+        <button id="paper">paper</button>
+        <button id="scissors">scissors</button>
+    </div>
+    <div class="contentboxenemy">
+        <div>Your enemy chose: </div>
+        <button id="enemy">??????</button>
+        <div id="winner">The outcome of this amazing fight is:</div>
+    </div>
+</div>
+<div class="boxtree">
+  <div id="outcome">none</div>
+</div>
 
 </body>
 
