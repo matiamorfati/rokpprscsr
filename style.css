@@ -29,7 +29,7 @@ background-image:  repeating-linear-gradient(0deg, #dcd5af, #afb2f0 1px, #e5e5f7
 }
 
 .boxone > div {
-    font-size: 32px;
+    font-size: 38px;
     font-weight: bold;
 }
 
@@ -49,6 +49,7 @@ background-image:  repeating-linear-gradient(0deg, #dcd5af, #afb2f0 1px, #e5e5f7
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .contentboxenemy > div {
@@ -56,7 +57,7 @@ background-image:  repeating-linear-gradient(0deg, #dcd5af, #afb2f0 1px, #e5e5f7
     font-weight: bold;
 }
 
-#winner {
+.winner {
     font-size: 38px;
 }
 
@@ -66,6 +67,21 @@ button {
     border-radius: 10px;
     box-shadow: 4px 7px grey;
     font-weight: bold;
+    transition: all 0.7s ease;
+    font-size: 20px;
+}
+
+#rock:hover {
+    cursor: pointer;
+    background-color: rgb(180, 248, 225);
+}
+#paper:hover {
+    cursor: pointer;
+    background-color: rgb(143, 245, 211);
+}
+#scissors:hover{
+    cursor: pointer;
+    background-color: rgb(125, 248, 207);
 }
 
 #rock {
@@ -80,15 +96,36 @@ button {
 .boxtree {
     display: flex;
     margin: 15px 20%;
-    padding: 10% 25%;
+    padding: 5%;   
     border: rgb(0, 0, 0) solid;
     border-radius: 10px;
-    justify-content: space-around;
+    justify-content: center;
+    position: relative;
 }
 
 .boxtree > div {
-    font-size: 42px;
-    color: red;
+    font-size: 150px;
+    color: rgb(135, 12, 144);
 }
 
+#playerscore{
+    position: absolute;
+    left: -52px;
+    top: 100px;
+    color: black;
+    background-color: red;
+    font-size: 32px;
+    padding: 3px;
+    border-radius: 5px;
+}
 
+#computerscore{
+    position: absolute;
+    right: -72px;
+    top: 100px;
+    color: black;
+    background-color: red;
+    font-size: 32px;
+    padding: 3px;
+    border-radius: 5px;
+}

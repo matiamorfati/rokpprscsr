@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <title>rpprs!</title>
     <link rel="stylesheet" href="./style.css">
-  <!--  <script type="text/javascript"src="./game.js"></script> -->
 </head>
 
 <body>
@@ -22,13 +21,16 @@
     <div class="contentboxenemy">
         <div>Your enemy chose: </div>
         <button id="enemy">??????</button>
-        <div id="winner">The outcome of this amazing fight is:</div>
+        <div class="winner" >The outcome of this amazing fight is:</div>
+        <div class="winner" id="winner">...</div>
     </div>
 </div>
-<div class="boxtree">
-  <div id="outcome">none</div>
+    <div class="boxtree">
+  <div class="score" id="playerscore">player</div>
+  <div id="outcome"><span id="user-score">0</span>:<span id="computer-score">0</span></div>
+  <div class="score" id="computerscore">computer</div>
 </div>
-
+<script type="text/javascript"src="./game.js"></script>
 </body>
 
 </html>
